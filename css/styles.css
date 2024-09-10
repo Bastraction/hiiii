@@ -38,7 +38,7 @@ body{
     background-color: rgb(241, 214, 184);
     margin: auto;
     height: auto;
-    width: 50%;
+    width: 70%;
     border: 5px solid rgb(241, 214, 184);
     padding: 10px;
     text-align: center;
@@ -47,6 +47,6 @@ body{
 
 .main_2 {
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
