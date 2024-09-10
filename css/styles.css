@@ -1,0 +1,52 @@
+body{
+    background-color: blanchedalmond;
+    background-repeat: repeat-y;
+    background-image: url("./img/heart.png");
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+  }
+  
+  #heart::before, #heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: red;
+  }
+  
+  #heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  
+  #heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+
+.main {
+    background-color: rgb(241, 214, 184);
+    margin: auto;
+    height: auto;
+    width: 50%;
+    border: 5px solid rgb(241, 214, 184);
+    padding: 10px;
+    text-align: center;
+    color:rgb(238, 109, 58);
+}
+
+.main_2 {
+    margin: auto;
+    width: 50%;
+}
+
